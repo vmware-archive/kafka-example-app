@@ -1,0 +1,5 @@
+---
+applications:
+- name: kafka-example-app
+  memory: 512MB
+  command: kafka-example-app
