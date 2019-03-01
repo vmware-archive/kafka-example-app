@@ -53,7 +53,6 @@ func main() {
 
 		value, err := ioutil.ReadAll(r.Body)
 		if err != nil {
-			w.WriteHeader(500)
 			errs("can't read message", err)
 			return
 		}
@@ -64,7 +63,6 @@ func main() {
 			Value: sarama.ByteEncoder(value),
 		})
 		if err != nil {
-			w.WriteHeader(500)
 			errs("can't push message", err)
 			return
 		}
