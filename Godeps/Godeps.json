@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/pivotal-cf-experimental/kafka-example-app",
-	"GoVersion": "go1.12.5",
+	"GoVersion": "go1.12.6",
 	"GodepVersion": "v60",
 	"Packages": [
 		"./..."
