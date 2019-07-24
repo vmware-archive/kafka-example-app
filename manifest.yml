@@ -3,3 +3,6 @@ applications:
 - name: kafka-example-app
   memory: 512MB
   command: kafka-example-app
+
+buildpacks:
+  - https://github.com/cloudfoundry/go-buildpack/releases/download/v1.8.42/go-buildpack-cflinuxfs3-v1.8.42.zip
